@@ -1,0 +1,5807 @@
+{
+  "ciudad": "Cartagena de Indias",
+  "total_registros": 200,
+  "barrios": [
+    {
+      "nombre": "Manga",
+      "estrato": 5,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.4132,
+        "lon": -75.5358
+      },
+      "area_km2": 0.95,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Miramar",
+            "sentido": "Único",
+            "longitud_metros": 1250.5,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Real",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Bocagrande",
+      "estrato": 6,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.4022,
+        "lon": -75.5525
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida San Martín",
+            "sentido": "Doble",
+            "longitud_metros": 2100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 6ta",
+            "iluminacion_led": true,
+            "ancho_via_mts": 7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Pozón",
+      "estrato": 1,
+      "codigo_postal": "130010",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.46
+      },
+      "area_km2": 2.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Principal",
+            "sentido": "Doble",
+            "longitud_metros": 1800,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Cuchara",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Olaya Herrera",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.401,
+        "lon": -75.48
+      },
+      "area_km2": 3.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 3500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Socorro",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Crespo",
+      "estrato": 5,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.445,
+        "lon": -75.515
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Santander",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 70",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Blas de Lezo",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.388,
+        "lon": -75.495
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Kennedy",
+            "sentido": "Doble",
+            "longitud_metros": 1400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 15",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Castillogrande",
+      "estrato": 6,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.558
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Piñango",
+            "sentido": "Único",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 5ta",
+            "iluminacion_led": true,
+            "ancho_via_mts": 7.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Pie de la Popa",
+      "estrato": 4,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.418,
+        "lon": -75.535
+      },
+      "area_km2": 0.85,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Lago",
+            "sentido": "Doble",
+            "longitud_metros": 2000,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Conuco",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Caracoles",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.385,
+        "lon": -75.5
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Caracoles",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 5",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Fernando",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.382,
+        "lon": -75.485
+      },
+      "area_km2": 1.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 4500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 22",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Socorro",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.375,
+        "lon": -75.475
+      },
+      "area_km2": 1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de la Cordialidad",
+            "sentido": "Doble",
+            "longitud_metros": 5000,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Plan 400",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Nelson Mandela",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.355,
+        "lon": -75.485
+      },
+      "area_km2": 2.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal Mandela",
+            "sentido": "Doble",
+            "longitud_metros": 2200,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Esperanza",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Cabrero",
+      "estrato": 5,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.432,
+        "lon": -75.542
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Santander",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Real",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Getsemaní",
+      "estrato": 4,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.4215,
+        "lon": -75.5448
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Centenario",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Sierpe",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Torices",
+      "estrato": 2,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.4325,
+        "lon": -75.528
+      },
+      "area_km2": 1.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 1200,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 42",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Francisco",
+      "estrato": 2,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.441,
+        "lon": -75.518
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Ferrocarril",
+            "sentido": "Doble",
+            "longitud_metros": 950,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 13",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Boquilla",
+      "estrato": 2,
+      "codigo_postal": "130009",
+      "coordenadas": {
+        "lat": 10.472,
+        "lon": -75.485
+      },
+      "area_km2": 2.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía al Mar",
+            "sentido": "Doble",
+            "longitud_metros": 6000,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 80
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Pescador",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Lucía",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.381,
+        "lon": -75.478
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de la Victoria",
+            "sentido": "Doble",
+            "longitud_metros": 1000,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Bruselas",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.405,
+        "lon": -75.525
+      },
+      "area_km2": 0.75,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Crisanto Luque",
+            "sentido": "Doble",
+            "longitud_metros": 2500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Millo",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Almirante Colón",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.389,
+        "lon": -75.505
+      },
+      "area_km2": 0.55,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 3000,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 10",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Campestre",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.372,
+        "lon": -75.512
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor de Carga",
+            "sentido": "Doble",
+            "longitud_metros": 4200,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 12",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Mónica",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.392,
+        "lon": -75.488
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 21",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Ejecutivos",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.3895,
+        "lon": -75.482
+      },
+      "area_km2": 0.45,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 30",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San José de los Campanos",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.362,
+        "lon": -75.455
+      },
+      "area_km2": 3.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal San José",
+            "sentido": "Doble",
+            "longitud_metros": 2800,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de las Palmeras",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Zaragocilla",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.4015,
+        "lon": -75.511
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Hospital",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Chile",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.408,
+        "lon": -75.522
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Crisanto Luque",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 24",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Nuevo Bosque",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.398,
+        "lon": -75.518
+      },
+      "area_km2": 1.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 22",
+            "sentido": "Doble",
+            "longitud_metros": 1500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Transversal 52",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.1
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Ceballos",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.381,
+        "lon": -75.52
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida El Bosque",
+            "sentido": "Doble",
+            "longitud_metros": 1200,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Zona",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Rosita",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.379,
+        "lon": -75.462
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Ternera",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana 5",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Ternera",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.371,
+        "lon": -75.47
+      },
+      "area_km2": 1.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 32",
+            "sentido": "Doble",
+            "longitud_metros": 2200,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Cementerio",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La María",
+      "estrato": 1,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.428,
+        "lon": -75.515
+      },
+      "area_km2": 1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Perimetral",
+            "sentido": "Único",
+            "longitud_metros": 3800,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 45",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Diego",
+      "estrato": 6,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.427,
+        "lon": -75.547
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Venezuela",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Torno",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Amberes",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.412,
+        "lon": -75.528
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de la Carrera",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 29",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Escallón Villa",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.485
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 1200,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Estadio",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Victoria",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.384,
+        "lon": -75.472
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de la Victoria",
+            "sentido": "Doble",
+            "longitud_metros": 700,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 32",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Vista Hermosa",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.378,
+        "lon": -75.505
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía a Mamonal",
+            "sentido": "Doble",
+            "longitud_metros": 1500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal Vista",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Provincia",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.381,
+        "lon": -75.465
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 11",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Recreo",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.368,
+        "lon": -75.462
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Alpes",
+            "sentido": "Doble",
+            "longitud_metros": 1300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 19",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Lucía",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.385,
+        "lon": -75.482
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31C",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Pasacaballos",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.295,
+        "lon": -75.535
+      },
+      "area_km2": 5.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Barú",
+            "sentido": "Doble",
+            "longitud_metros": 8500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 70
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Puerto",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Pie del Cerro",
+      "estrato": 3,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.419,
+        "lon": -75.541
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Lago",
+            "sentido": "Doble",
+            "longitud_metros": 1200,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Cruz",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Bosque",
+      "estrato": 2,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.3995,
+        "lon": -75.523
+      },
+      "area_km2": 1.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 21",
+            "sentido": "Doble",
+            "longitud_metros": 2500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Zapatero",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Calamares",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.3925,
+        "lon": -75.502
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 4",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Castellana",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.3885,
+        "lon": -75.479
+      },
+      "area_km2": 0.65,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 30A",
+            "iluminacion_led": true,
+            "ancho_via_mts": 7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Sandra",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.3805,
+        "lon": -75.4725
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Campestre",
+            "sentido": "Doble",
+            "longitud_metros": 450,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 2",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Francisco Sector Bajo",
+      "estrato": 1,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.443,
+        "lon": -75.521
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Perimetral",
+            "sentido": "Único",
+            "longitud_metros": 1500,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Humo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Esperanza",
+      "estrato": 2,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.4085,
+        "lon": -75.495
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 32",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Canapote",
+      "estrato": 2,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.438,
+        "lon": -75.531
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Santander",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 60",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Daniel Lemaitre",
+      "estrato": 2,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.441,
+        "lon": -75.525
+      },
+      "area_km2": 0.85,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Cabrero",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 67",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Alto Bosque",
+      "estrato": 4,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.528
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 48",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 10A",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Isidro",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.404,
+        "lon": -75.518
+      },
+      "area_km2": 0.75,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Crisanto Luque",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Mamón",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Líbano",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.406,
+        "lon": -75.485
+      },
+      "area_km2": 0.95,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 31",
+            "sentido": "Doble",
+            "longitud_metros": 1200,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Paz",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Tacarigua",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.39,
+        "lon": -75.468
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 44",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Corales",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.386,
+        "lon": -75.508
+      },
+      "area_km2": 0.55,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 30",
+            "sentido": "Doble",
+            "longitud_metros": 750,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 11",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Ana",
+      "estrato": 2,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.315,
+        "lon": -75.51
+      },
+      "area_km2": 1.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Mamonal",
+            "sentido": "Doble",
+            "longitud_metros": 2500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Campo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Arroz Barato",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.322,
+        "lon": -75.502
+      },
+      "area_km2": 2.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor Industrial",
+            "sentido": "Doble",
+            "longitud_metros": 1400,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Polvo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Bayunca",
+      "estrato": 1,
+      "codigo_postal": "130008",
+      "coordenadas": {
+        "lat": 10.515,
+        "lon": -75.425
+      },
+      "area_km2": 6.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Carretera de la Cordialidad",
+            "sentido": "Doble",
+            "longitud_metros": 4500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 80
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Central",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Boquilla Sector Playa",
+      "estrato": 2,
+      "codigo_postal": "130009",
+      "coordenadas": {
+        "lat": 10.475,
+        "lon": -75.482
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Callejón del Mar",
+            "sentido": "Único",
+            "longitud_metros": 600,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de los Cocos",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Puerta de Hierro",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.365,
+        "lon": -75.452
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Ternera",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Torre",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Membrillal",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.338,
+        "lon": -75.485
+      },
+      "area_km2": 4.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Alterna",
+            "sentido": "Doble",
+            "longitud_metros": 3200,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Cantera",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Blas de Lezo Sector 2",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.3865,
+        "lon": -75.498
+      },
+      "area_km2": 0.55,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Kennedy",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 21",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Socorro Plan 400",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.374,
+        "lon": -75.472
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de la Cordialidad",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Tráfico",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Fredonia",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.398,
+        "lon": -75.475
+      },
+      "area_km2": 1.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal Fredonia",
+            "sentido": "Doble",
+            "longitud_metros": 1400,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Paz",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Nuevo Paraíso",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.392,
+        "lon": -75.471
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Callejón Principal",
+            "sentido": "Único",
+            "longitud_metros": 750,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 20
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Canal",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Las Gaviotas",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.388,
+        "lon": -75.478
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 550,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31A",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Alpes",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.3785,
+        "lon": -75.468
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Alpes",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 19",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización Anita",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.3715,
+        "lon": -75.465
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 32",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana 2",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Pedro",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.386,
+        "lon": -75.475
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31B",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Contadora",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.405,
+        "lon": -75.515
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 44",
+            "sentido": "Único",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 25",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Chipre",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.409,
+        "lon": -75.518
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Crisanto Luque",
+            "sentido": "Doble",
+            "longitud_metros": 350,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Loma",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Bicentenario",
+      "estrato": 1,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.352,
+        "lon": -75.445
+      },
+      "area_km2": 2.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Bulevar de Bicentenario",
+            "sentido": "Doble",
+            "longitud_metros": 2200,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de los Sueños",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Estrella",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.368,
+        "lon": -75.451
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal Pozón-Estrella",
+            "sentido": "Doble",
+            "longitud_metros": 1500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 4",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Ciudadela 2000",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.348,
+        "lon": -75.478
+      },
+      "area_km2": 1.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Policarpa",
+            "sentido": "Doble",
+            "longitud_metros": 1800,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Unión",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Henequén",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.335,
+        "lon": -75.495
+      },
+      "area_km2": 3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía al Relleno",
+            "sentido": "Doble",
+            "longitud_metros": 2500,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Cantera",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Mamonal (Zona Industrial)",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.315,
+        "lon": -75.508
+      },
+      "area_km2": 12.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía a Mamonal",
+            "sentido": "Doble",
+            "longitud_metros": 15000,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 80
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Refinería",
+            "iluminacion_led": true,
+            "ancho_via_mts": 8.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Ceballos Nuevo",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.383,
+        "lon": -75.523
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor de Carga",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 14",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Alto de San Isidro",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.406,
+        "lon": -75.515
+      },
+      "area_km2": 0.45,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 28",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San José de los Campanos Sector B",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.358,
+        "lon": -75.458
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía de la Terminal",
+            "sentido": "Doble",
+            "longitud_metros": 2100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 100",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Lucía Sector Bajo",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.38,
+        "lon": -75.476
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31D",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Recreo Etapa 2",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.3695,
+        "lon": -75.46
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Alpes",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana 15",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San José de los Campanos Sector C",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.36,
+        "lon": -75.456
+      },
+      "area_km2": 1.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 100",
+            "sentido": "Doble",
+            "longitud_metros": 1800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Carrera 102",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Jardines",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.38,
+        "lon": -75.468
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Alpes",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 15",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Consolata",
+      "estrato": 2,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.405,
+        "lon": -75.488
+      },
+      "area_km2": 0.55,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 31",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Pescaíto",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Educador",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.358,
+        "lon": -75.492
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Policarpa",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 4",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Chiquinquirá",
+      "estrato": 2,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.402,
+        "lon": -75.492
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 30",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Campiña",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.392,
+        "lon": -75.48
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 25",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Adelaida",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.37,
+        "lon": -75.465
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 32",
+            "sentido": "Doble",
+            "longitud_metros": 350,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 1",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Castellana Sector 2",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.387,
+        "lon": -75.476
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 30B",
+            "iluminacion_led": true,
+            "ancho_via_mts": 7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Pedro Libertad",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.385,
+        "lon": -75.474
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Milagro",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.378,
+        "lon": -75.51
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Industrial",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Campo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Almirante Colón Etapa 2",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.388,
+        "lon": -75.503
+      },
+      "area_km2": 0.45,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 11",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Corales Sector A",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.3855,
+        "lon": -75.506
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 30",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Principal",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Recreo",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.367,
+        "lon": -75.464
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Alpes",
+            "sentido": "Doble",
+            "longitud_metros": 1400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 18",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Tacarigua II",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.391,
+        "lon": -75.465
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 350,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 45",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Carolina",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.355,
+        "lon": -75.448
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Terminal",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 202",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Portal de los Abetos",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.358,
+        "lon": -75.442
+      },
+      "area_km2": 0.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Callejón de Bicentenario",
+            "sentido": "Único",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 3",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Clara",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.385,
+        "lon": -75.512
+      },
+      "area_km2": 0.75,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 21",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Iglesia",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Reposo",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.352,
+        "lon": -75.485
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal Nelson Mandela",
+            "sentido": "Doble",
+            "longitud_metros": 1200,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Reposo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Ceballos Etapa 3",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.382,
+        "lon": -75.525
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor de Carga",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 16",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5.1
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Nuevo Horizonte",
+      "estrato": 1,
+      "codigo_postal": "130010",
+      "coordenadas": {
+        "lat": 10.398,
+        "lon": -75.455
+      },
+      "area_km2": 0.65,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Callejón Principal El Pozón",
+            "sentido": "Único",
+            "longitud_metros": 400,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 20
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 50",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Lo Amador",
+      "estrato": 2,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.422,
+        "lon": -75.538
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 31",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Paz",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Pedro Mártir",
+      "estrato": 2,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.365,
+        "lon": -75.495
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal San Pedro",
+            "sentido": "Doble",
+            "longitud_metros": 1300,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Progreso",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Country",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.398,
+        "lon": -75.475
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 28",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Troncal",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.48
+      },
+      "area_km2": 0.45,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 700,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 30",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Buenos Aires",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.39,
+        "lon": -75.475
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 22",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Bosque Sector San Isidro",
+      "estrato": 2,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.402,
+        "lon": -75.52
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Crisanto Luque",
+            "sentido": "Doble",
+            "longitud_metros": 950,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Puerto",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Zaragocilla Sector El Triunfo",
+      "estrato": 2,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.4,
+        "lon": -75.508
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 30",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 2",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Campiña Etapa 2",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.393,
+        "lon": -75.482
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 26",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.3
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Carthago",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.394,
+        "lon": -75.47
+      },
+      "area_km2": 0.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 250,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana 1",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Rubia",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.375,
+        "lon": -75.508
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor de Carga",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 10",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Bicentenario Manzana 70",
+      "estrato": 1,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.355,
+        "lon": -75.44
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal Bicentenario",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 15",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Colombiatón",
+      "estrato": 1,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.358,
+        "lon": -75.438
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Bulevar Colombiatón",
+            "sentido": "Doble",
+            "longitud_metros": 1300,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Centro",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Nazareno",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.35,
+        "lon": -75.488
+      },
+      "area_km2": 1.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Policarpa",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 20
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Nazareno",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Huellas de Alberto Uribe",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.345,
+        "lon": -75.485
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Nelson Mandela",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 1",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Gallinero",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.33,
+        "lon": -75.5
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Alterna",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Canal",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Polígono Industrial Mamonal",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.305,
+        "lon": -75.5
+      },
+      "area_km2": 8.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Mamonal-Gambote",
+            "sentido": "Doble",
+            "longitud_metros": 12000,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 80
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Vía de Acceso Planta",
+            "iluminacion_led": true,
+            "ancho_via_mts": 9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Puerto de Pescadores",
+      "estrato": 2,
+      "codigo_postal": "130009",
+      "coordenadas": {
+        "lat": 10.478,
+        "lon": -75.48
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía al Mar",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Playa",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Manzanillo del Mar",
+      "estrato": 2,
+      "codigo_postal": "130009",
+      "coordenadas": {
+        "lat": 10.495,
+        "lon": -75.465
+      },
+      "area_km2": 4.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Cartagena-Barranquilla",
+            "sentido": "Doble",
+            "longitud_metros": 5500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 90
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Pueblo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Corelca",
+      "estrato": 2,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.385,
+        "lon": -75.52
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor de Carga",
+            "sentido": "Doble",
+            "longitud_metros": 450,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 12",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Alto de San Isidro Sector 2",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.407,
+        "lon": -75.513
+      },
+      "area_km2": 0.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 200,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 27",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San José de los Campanos Sector Revivir",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.363,
+        "lon": -75.454
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Carrera 100",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Humildad",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Hermosa",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.342,
+        "lon": -75.49
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Policarpa",
+            "sentido": "Doble",
+            "longitud_metros": 750,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 20
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 3",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Pedro Mártir Sector Coquivacoa",
+      "estrato": 2,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.367,
+        "lon": -75.492
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Principal San Pedro",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Principal",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Parque",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.465
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 450,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 44",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Providencia",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.38,
+        "lon": -75.463
+      },
+      "area_km2": 0.45,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 32",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 28",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Barcelona",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.3915,
+        "lon": -75.472
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 350,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Triunfo",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa María",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.372,
+        "lon": -75.468
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Ternera",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Porvenir",
+      "estrato": 3,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.402,
+        "lon": -75.485
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de los Artistas",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Boston",
+      "estrato": 2,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.425,
+        "lon": -75.51
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Perimetral",
+            "sentido": "Único",
+            "longitud_metros": 1100,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 33",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Candelaria",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.41,
+        "lon": -75.488
+      },
+      "area_km2": 0.9,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Mar",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Tesca Viejo",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.418,
+        "lon": -75.495
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Perimetral",
+            "sentido": "Único",
+            "longitud_metros": 600,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Ciénaga",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Lo Amador Sector La Popa",
+      "estrato": 2,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.423,
+        "lon": -75.535
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 31",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 20
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Callejón de la subida",
+            "iluminacion_led": true,
+            "ancho_via_mts": 4.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Vicente de Paúl",
+      "estrato": 2,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.435,
+        "lon": -75.525
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Hospital",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Recreo Etapa 3",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.366,
+        "lon": -75.46
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Ternera",
+            "sentido": "Doble",
+            "longitud_metros": 350,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 20",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Quindío",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.355,
+        "lon": -75.48
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Mandela",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de los Cafetales",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Las Palmeras Sector 1",
+      "estrato": 3,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.478
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Principal Palmeras",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización Castillete",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.39,
+        "lon": -75.47
+      },
+      "area_km2": 0.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Los Calamares Sector 2",
+      "estrato": 3,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.394,
+        "lon": -75.5
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 30",
+            "sentido": "Doble",
+            "longitud_metros": 450,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Deporte",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización Paraíso Real",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.358,
+        "lon": -75.445
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Callejón Bicentenario",
+            "sentido": "Único",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 5",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Henequén Sector Arroz Barato",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.328,
+        "lon": -75.498
+      },
+      "area_km2": 2.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor Industrial",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Barro",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.1
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Las Palmeras Sector 2",
+      "estrato": 3,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.393,
+        "lon": -75.475
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 850,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de las Flores",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Antonio",
+      "estrato": 2,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.398,
+        "lon": -75.482
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal San Antonio",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización La Gloria",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.375,
+        "lon": -75.46
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Ternera",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 1",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Sierrita",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.34,
+        "lon": -75.485
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Callejón de acceso Mandela",
+            "sentido": "Único",
+            "longitud_metros": 500,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 20
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Cerro",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Gallo",
+      "estrato": 2,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.392,
+        "lon": -75.485
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 350,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa Grande de Indias",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.355,
+        "lon": -75.435
+      },
+      "area_km2": 1.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía de acceso Terminal",
+            "sentido": "Doble",
+            "longitud_metros": 1800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Carrera 90",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Huellas de Alberto Uribe Etapa 2",
+      "estrato": 1,
+      "codigo_postal": "130016",
+      "coordenadas": {
+        "lat": 10.344,
+        "lon": -75.483
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Nelson Mandela",
+            "sentido": "Doble",
+            "longitud_metros": 450,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Triunfo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Sector Industrial Mamonal III",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.3,
+        "lon": -75.515
+      },
+      "area_km2": 9.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía a Barú",
+            "sentido": "Doble",
+            "longitud_metros": 8000,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 70
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle acceso muelle",
+            "iluminacion_led": true,
+            "ancho_via_mts": 10
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Horizonte",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.359,
+        "lon": -75.448
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Terminal",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 4",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa de Aranjuez",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.352,
+        "lon": -75.435
+      },
+      "area_km2": 0.85,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Bulevar de Aranjuez",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San José de los Campanos Sector La Carolina",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.357,
+        "lon": -75.451
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía de la Terminal",
+            "sentido": "Doble",
+            "longitud_metros": 900,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana 40",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización Los Abetos",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.36,
+        "lon": -75.442
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Callejón Bicentenario",
+            "sentido": "Único",
+            "longitud_metros": 350,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 2",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.1
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Henequén Sector Los Girasoles",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.332,
+        "lon": -75.495
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía al Relleno",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Sol",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización Doña Manuela",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.354,
+        "lon": -75.43
+      },
+      "area_km2": 0.45,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Variante Turbaco",
+            "sentido": "Doble",
+            "longitud_metros": 1200,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 70
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal Manuela",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.9
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "20 de Julio Sector Alto",
+      "estrato": 1,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.385,
+        "lon": -75.505
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 15",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 20
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Callejón de la subida",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Antonio José de Sucre",
+      "estrato": 1,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.388,
+        "lon": -75.508
+      },
+      "area_km2": 0.55,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 30",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle Sucre",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.1
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Nueva Granada",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.405,
+        "lon": -75.518
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 21",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 25",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.3
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Francisco Sector Los 7 Muertos",
+      "estrato": 1,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.445,
+        "lon": -75.522
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Perimetral",
+            "sentido": "Único",
+            "longitud_metros": 300,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Callejón 4",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La María Sector Sector 3",
+      "estrato": 1,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.43,
+        "lon": -75.512
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Calle 45",
+            "sentido": "Doble",
+            "longitud_metros": 700,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Loma",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Edén",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.365,
+        "lon": -75.448
+      },
+      "area_km2": 0.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Ternera",
+            "sentido": "Doble",
+            "longitud_metros": 250,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Jardín",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Pie de la Popa",
+      "estrato": 4,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.418,
+        "lon": -75.535
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Lago",
+            "sentido": "Doble",
+            "longitud_metros": 1500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Conuco",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Barrio Chino",
+      "estrato": 2,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.415,
+        "lon": -75.538
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Lago",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Media Luna",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Martínez Martelo",
+      "estrato": 3,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.412,
+        "lon": -75.535
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Crisanto Luque",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 24",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Prado",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.408,
+        "lon": -75.525
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 33",
+            "sentido": "Doble",
+            "longitud_metros": 700,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Mercado",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Líbano Sector Pantano de Vargas",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.405,
+        "lon": -75.482
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Callejón de las Brujas",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Olaya Herrera Sector Central",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.4,
+        "lon": -75.495
+      },
+      "area_km2": 2.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 2200,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Amparo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Olaya Herrera Sector Estela",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.402,
+        "lon": -75.498
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Perimetral",
+            "sentido": "Único",
+            "longitud_metros": 1200,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 11",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Crespo Sector Playa",
+      "estrato": 5,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.452,
+        "lon": -75.518
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Santander",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 70",
+            "iluminacion_led": true,
+            "ancho_via_mts": 7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Boquilla Sector Marlinda",
+      "estrato": 1,
+      "codigo_postal": "130009",
+      "coordenadas": {
+        "lat": 10.485,
+        "lon": -75.475
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía del Mar",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Callejón de los Pescadores",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Golf",
+      "estrato": 4,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.505
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 30",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 12",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Escallón Villa Sector El Estadio",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.392,
+        "lon": -75.488
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Carrera 56",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización Los Laureles",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.362,
+        "lon": -75.445
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Terminal",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana A",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Fernando Sector El Parque",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.382,
+        "lon": -75.485
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 450,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Iglesia",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Rodeo",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.355,
+        "lon": -75.455
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Variante Mamonal-Turbaco",
+            "sentido": "Doble",
+            "longitud_metros": 1500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 80
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal Rodeo",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Henequén Sector Libertador",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.335,
+        "lon": -75.498
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía al Relleno",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 4",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Policarpa Sector Bajo",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.338,
+        "lon": -75.505
+      },
+      "area_km2": 1.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Mamonal",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Polvo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Albornoz",
+      "estrato": 1,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.372,
+        "lon": -75.525
+      },
+      "area_km2": 1.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor de Carga",
+            "sentido": "Doble",
+            "longitud_metros": 2500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Zona",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Recreo Etapa 4",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.371,
+        "lon": -75.458
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Alpes",
+            "sentido": "Doble",
+            "longitud_metros": 250,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana 25",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Lucía Sector El Canal",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.382,
+        "lon": -75.48
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31E",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa de la Candelaria",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.35,
+        "lon": -75.442
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Variante Turbaco",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 70
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Pie de la Popa",
+      "estrato": 4,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.418,
+        "lon": -75.535
+      },
+      "area_km2": 0.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Lago",
+            "sentido": "Doble",
+            "longitud_metros": 1500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Conuco",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Barrio Chino",
+      "estrato": 2,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.415,
+        "lon": -75.538
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Lago",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Media Luna",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Martínez Martelo",
+      "estrato": 3,
+      "codigo_postal": "130001",
+      "coordenadas": {
+        "lat": 10.412,
+        "lon": -75.535
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Crisanto Luque",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 24",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Prado",
+      "estrato": 3,
+      "codigo_postal": "130003",
+      "coordenadas": {
+        "lat": 10.408,
+        "lon": -75.525
+      },
+      "area_km2": 0.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 33",
+            "sentido": "Doble",
+            "longitud_metros": 700,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Mercado",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "El Líbano Sector Pantano de Vargas",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.405,
+        "lon": -75.482
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Callejón de las Brujas",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Olaya Herrera Sector Central",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.4,
+        "lon": -75.495
+      },
+      "area_km2": 2.5,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro Romero",
+            "sentido": "Doble",
+            "longitud_metros": 2200,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Amparo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Olaya Herrera Sector Estela",
+      "estrato": 1,
+      "codigo_postal": "130011",
+      "coordenadas": {
+        "lat": 10.402,
+        "lon": -75.498
+      },
+      "area_km2": 1.1,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Perimetral",
+            "sentido": "Único",
+            "longitud_metros": 1200,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 11",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Crespo Sector Playa",
+      "estrato": 5,
+      "codigo_postal": "130002",
+      "coordenadas": {
+        "lat": 10.452,
+        "lon": -75.518
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Santander",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 70",
+            "iluminacion_led": true,
+            "ancho_via_mts": 7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "La Boquilla Sector Marlinda",
+      "estrato": 1,
+      "codigo_postal": "130009",
+      "coordenadas": {
+        "lat": 10.485,
+        "lon": -75.475
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía del Mar",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Callejón de los Pescadores",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Golf",
+      "estrato": 4,
+      "codigo_postal": "130012",
+      "coordenadas": {
+        "lat": 10.395,
+        "lon": -75.505
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Diagonal 30",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 12",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Escallón Villa Sector El Estadio",
+      "estrato": 4,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.392,
+        "lon": -75.488
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida del Consulado",
+            "sentido": "Doble",
+            "longitud_metros": 500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Carrera 56",
+            "iluminacion_led": true,
+            "ancho_via_mts": 6.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización Los Laureles",
+      "estrato": 3,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.362,
+        "lon": -75.445
+      },
+      "area_km2": 0.25,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Terminal",
+            "sentido": "Doble",
+            "longitud_metros": 300,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana A",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "San Fernando Sector El Parque",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.382,
+        "lon": -75.485
+      },
+      "area_km2": 0.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida Pedro de Heredia",
+            "sentido": "Doble",
+            "longitud_metros": 450,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Iglesia",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.8
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Rodeo",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.355,
+        "lon": -75.455
+      },
+      "area_km2": 1.2,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Variante Mamonal-Turbaco",
+            "sentido": "Doble",
+            "longitud_metros": 1500,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 80
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal Rodeo",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.6
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Henequén Sector Libertador",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.335,
+        "lon": -75.498
+      },
+      "area_km2": 0.7,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía al Relleno",
+            "sentido": "Doble",
+            "longitud_metros": 600,
+            "estado_pavimento": "MALO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 30
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 4",
+            "iluminacion_led": false,
+            "ancho_via_mts": 3.5
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Policarpa Sector Bajo",
+      "estrato": 1,
+      "codigo_postal": "130019",
+      "coordenadas": {
+        "lat": 10.338,
+        "lon": -75.505
+      },
+      "area_km2": 1.4,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Vía Mamonal",
+            "sentido": "Doble",
+            "longitud_metros": 1100,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 50
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle del Polvo",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Albornoz",
+      "estrato": 1,
+      "codigo_postal": "130013",
+      "coordenadas": {
+        "lat": 10.372,
+        "lon": -75.525
+      },
+      "area_km2": 1.8,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Corredor de Carga",
+            "sentido": "Doble",
+            "longitud_metros": 2500,
+            "estado_pavimento": "REGULAR",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle de la Zona",
+            "iluminacion_led": false,
+            "ancho_via_mts": 4.2
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Urbanización El Recreo Etapa 4",
+      "estrato": 3,
+      "codigo_postal": "130015",
+      "coordenadas": {
+        "lat": 10.371,
+        "lon": -75.458
+      },
+      "area_km2": 0.3,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Avenida de los Alpes",
+            "sentido": "Doble",
+            "longitud_metros": 250,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 40
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Manzana 25",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.7
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Santa Lucía Sector El Canal",
+      "estrato": 3,
+      "codigo_postal": "130014",
+      "coordenadas": {
+        "lat": 10.382,
+        "lon": -75.48
+      },
+      "area_km2": 0.35,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Transversal 54",
+            "sentido": "Doble",
+            "longitud_metros": 400,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": true,
+            "velocidad_maxima": 60
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle 31E",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.4
+          }
+        ]
+      }
+    },
+    {
+      "nombre": "Villa de la Candelaria",
+      "estrato": 2,
+      "codigo_postal": "130017",
+      "coordenadas": {
+        "lat": 10.35,
+        "lon": -75.442
+      },
+      "area_km2": 0.6,
+      "vias": {
+        "avenidas": [
+          {
+            "nombre": "Variante Turbaco",
+            "sentido": "Doble",
+            "longitud_metros": 800,
+            "estado_pavimento": "BUENO",
+            "tiene_ciclorruta": false,
+            "velocidad_maxima": 70
+          }
+        ],
+        "calles": [
+          {
+            "nombre": "Calle principal",
+            "iluminacion_led": true,
+            "ancho_via_mts": 5.2
+          }
+        ]
+      }
+    }
+  ]
+}
+

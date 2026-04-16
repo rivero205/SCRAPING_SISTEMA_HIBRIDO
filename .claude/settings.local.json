@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node --check scripts/setup_mysql.js)",
+      "Bash(node --check scripts/etl_mongo.js)",
+      "Bash(node *)"
+    ]
+  }
+}
