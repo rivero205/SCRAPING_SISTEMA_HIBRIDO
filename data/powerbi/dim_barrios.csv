@@ -1,0 +1,179 @@
+﻿id,nombre,slug,estrato,latitud,longitud,area_km2,estado_pavimento,iluminacion_led,fecha_insercion
+1,Manga,manga,5,10.4132,-75.5358,0.95,BUENO,1,2026-03-06 11:15:29
+2,Bocagrande,bocagrande,6,10.4022,-75.5525,1.2,BUENO,1,2026-03-06 11:15:29
+3,El Pozón,el-pozon,1,10.395,-75.46,2.1,MALO,0,2026-03-06 11:15:29
+5,Crespo,crespo,5,10.445,-75.515,0.8,BUENO,1,2026-03-06 11:15:29
+6,Blas de Lezo,blas-de-lezo,3,10.388,-75.495,1.1,REGULAR,1,2026-03-06 11:15:29
+7,Castillogrande,castillogrande,6,10.395,-75.558,0.7,BUENO,1,2026-03-06 11:15:29
+9,Los Caracoles,los-caracoles,3,10.385,-75.5,0.6,BUENO,1,2026-03-06 11:15:29
+10,San Fernando,san-fernando,3,10.382,-75.485,1.3,BUENO,0,2026-03-06 11:15:29
+11,El Socorro,el-socorro,3,10.375,-75.475,1,REGULAR,1,2026-03-06 11:15:29
+13,Cabrero,cabrero,5,10.432,-75.542,0.4,BUENO,1,2026-03-06 11:15:29
+14,Getsemaní,getsemani,4,10.4215,-75.5448,0.5,BUENO,1,2026-03-06 11:15:29
+15,Torices,torices,2,10.4325,-75.528,1.4,REGULAR,1,2026-03-06 11:15:29
+17,La Boquilla,la-boquilla,2,10.472,-75.485,2.5,BUENO,0,2026-03-06 11:15:29
+19,Bruselas,bruselas,3,10.405,-75.525,0.75,REGULAR,1,2026-03-06 11:15:29
+20,Almirante Colón,almirante-colon,3,10.389,-75.505,0.55,BUENO,1,2026-03-06 11:15:29
+21,El Campestre,el-campestre,2,10.372,-75.512,1.1,REGULAR,1,2026-03-06 11:15:29
+23,Los Ejecutivos,los-ejecutivos,4,10.3895,-75.482,0.45,BUENO,1,2026-03-06 11:15:29
+24,San José de los Campanos,san-jose-de-los-campanos,2,10.362,-75.455,3.2,REGULAR,0,2026-03-06 11:15:29
+25,Zaragocilla,zaragocilla,3,10.4015,-75.511,0.9,BUENO,1,2026-03-06 11:15:29
+26,Chile,chile,3,10.408,-75.522,0.5,BUENO,1,2026-03-06 11:15:29
+27,Nuevo Bosque,nuevo-bosque,3,10.398,-75.518,1.4,REGULAR,1,2026-03-06 11:15:29
+28,Ceballos,ceballos,2,10.381,-75.52,0.8,REGULAR,0,2026-03-06 11:15:29
+29,Villa Rosita,villa-rosita,3,10.379,-75.462,0.5,BUENO,1,2026-03-06 11:15:29
+30,Ternera,ternera,3,10.371,-75.47,1.8,BUENO,1,2026-03-06 11:15:29
+31,La María,la-maria,1,10.428,-75.515,1,MALO,0,2026-03-06 11:15:29
+32,San Diego,san-diego,6,10.427,-75.547,0.3,BUENO,1,2026-03-06 11:15:29
+33,Amberes,amberes,3,10.412,-75.528,0.4,BUENO,1,2026-03-06 11:15:29
+34,Escallón Villa,escallon-villa,4,10.395,-75.485,0.9,BUENO,1,2026-03-06 11:15:29
+35,La Victoria,la-victoria,3,10.384,-75.472,0.5,REGULAR,1,2026-03-06 11:15:29
+36,Vista Hermosa,vista-hermosa,2,10.378,-75.505,0.7,REGULAR,0,2026-03-06 11:15:29
+38,El Recreo,el-recreo,3,10.368,-75.462,1.2,BUENO,1,2026-03-06 11:15:29
+39,Santa Lucía,santa-lucia,3,10.385,-75.482,0.6,BUENO,1,2026-03-06 11:15:29
+40,Pasacaballos,pasacaballos,1,10.295,-75.535,5.4,REGULAR,0,2026-03-06 11:15:29
+41,Pie del Cerro,pie-del-cerro,3,10.419,-75.541,0.4,REGULAR,1,2026-03-06 11:15:29
+42,El Bosque,el-bosque,2,10.3995,-75.523,1.5,REGULAR,0,2026-03-06 11:15:29
+43,Los Calamares,los-calamares,3,10.3925,-75.502,0.5,BUENO,1,2026-03-06 11:15:29
+44,La Castellana,la-castellana,4,10.3885,-75.479,0.65,BUENO,1,2026-03-06 11:15:29
+45,Villa Sandra,villa-sandra,3,10.3805,-75.4725,0.35,BUENO,1,2026-03-06 11:15:29
+46,San Francisco Sector Bajo,san-francisco-sector-bajo,1,10.443,-75.521,0.9,MALO,0,2026-03-06 11:15:29
+47,La Esperanza,la-esperanza,2,10.4085,-75.495,1.1,REGULAR,0,2026-03-06 11:15:29
+48,Canapote,canapote,2,10.438,-75.531,0.7,BUENO,1,2026-03-06 11:15:29
+49,Daniel Lemaitre,daniel-lemaitre,2,10.441,-75.525,0.85,REGULAR,1,2026-03-06 11:15:29
+50,Alto Bosque,alto-bosque,4,10.395,-75.528,0.6,BUENO,1,2026-03-06 11:15:29
+51,San Isidro,san-isidro,3,10.404,-75.518,0.75,BUENO,1,2026-03-06 11:15:29
+52,El Líbano,el-libano,1,10.406,-75.485,0.95,MALO,0,2026-03-06 11:15:29
+53,Tacarigua,tacarigua,4,10.39,-75.468,0.4,BUENO,1,2026-03-06 11:15:29
+54,Los Corales,los-corales,3,10.386,-75.508,0.55,BUENO,1,2026-03-06 11:15:29
+56,Arroz Barato,arroz-barato,1,10.322,-75.502,2.2,MALO,0,2026-03-06 11:15:29
+57,Bayunca,bayunca,1,10.515,-75.425,6.5,BUENO,0,2026-03-06 11:15:29
+58,La Boquilla Sector Playa,la-boquilla-sector-playa,2,10.475,-75.482,0.8,REGULAR,1,2026-03-06 11:15:29
+60,Membrillal,membrillal,1,10.338,-75.485,4.5,MALO,0,2026-03-06 11:15:29
+61,Blas de Lezo Sector 2,blas-de-lezo-sector-2,3,10.3865,-75.498,0.55,BUENO,1,2026-03-06 11:15:29
+62,El Socorro Plan 400,el-socorro-plan-400,3,10.374,-75.472,0.8,REGULAR,1,2026-03-06 11:15:29
+63,Fredonia,fredonia,1,10.398,-75.475,1.3,MALO,0,2026-03-06 11:15:29
+64,Nuevo Paraíso,nuevo-paraiso,1,10.392,-75.471,0.9,MALO,0,2026-03-06 11:15:29
+65,Las Gaviotas,las-gaviotas,3,10.388,-75.478,0.5,BUENO,1,2026-03-06 11:15:29
+66,Los Alpes,los-alpes,3,10.3785,-75.468,0.6,BUENO,1,2026-03-06 11:15:29
+67,Urbanización Anita,urbanizacion-anita,3,10.3715,-75.465,0.3,BUENO,1,2026-03-06 11:15:29
+68,San Pedro,san-pedro,4,10.386,-75.475,0.4,BUENO,1,2026-03-06 11:15:29
+69,Contadora,contadora,3,10.405,-75.515,0.25,BUENO,1,2026-03-06 11:15:29
+70,Chipre,chipre,3,10.409,-75.518,0.35,BUENO,1,2026-03-06 11:15:29
+71,Bicentenario,bicentenario,1,10.352,-75.445,2.5,BUENO,1,2026-03-06 11:15:29
+72,Villa Estrella,villa-estrella,2,10.368,-75.451,1.1,REGULAR,0,2026-03-06 11:15:29
+73,Ciudadela 2000,ciudadela-2000,1,10.348,-75.478,1.8,MALO,0,2026-03-06 11:15:29
+74,Henequén,henequen,1,10.335,-75.495,3,MALO,0,2026-03-06 11:15:29
+75,Mamonal (Zona Industrial),mamonal-zona-industrial,1,10.315,-75.508,12.5,BUENO,1,2026-03-06 11:15:29
+76,Ceballos Nuevo,ceballos-nuevo,2,10.383,-75.523,0.5,REGULAR,0,2026-03-06 11:15:29
+77,Alto de San Isidro,alto-de-san-isidro,3,10.406,-75.515,0.45,BUENO,1,2026-03-06 11:15:29
+78,San José de los Campanos Sector B,san-jose-de-los-campanos-sector-b,2,10.358,-75.458,1.2,BUENO,1,2026-03-06 11:15:29
+79,Santa Lucía Sector Bajo,santa-lucia-sector-bajo,3,10.38,-75.476,0.4,BUENO,1,2026-03-06 11:15:29
+80,El Recreo Etapa 2,el-recreo-etapa-2,3,10.3695,-75.46,0.5,BUENO,1,2026-03-06 11:15:29
+82,Los Jardines,los-jardines,3,10.38,-75.468,0.3,BUENO,1,2026-03-06 11:15:29
+83,La Consolata,la-consolata,2,10.405,-75.488,0.55,REGULAR,0,2026-03-06 11:15:29
+85,Chiquinquirá,chiquinquira,2,10.402,-75.492,0.7,REGULAR,1,2026-03-06 11:15:29
+86,La Campiña,la-campina,4,10.392,-75.48,0.4,BUENO,1,2026-03-06 11:15:29
+87,Villa Adelaida,villa-adelaida,3,10.37,-75.465,0.25,BUENO,1,2026-03-06 11:15:29
+88,La Castellana Sector 2,la-castellana-sector-2,4,10.387,-75.476,0.5,BUENO,1,2026-03-06 11:15:29
+89,San Pedro Libertad,san-pedro-libertad,3,10.385,-75.474,0.35,BUENO,1,2026-03-06 11:15:29
+90,El Milagro,el-milagro,2,10.378,-75.51,0.6,REGULAR,0,2026-03-06 11:15:29
+91,Almirante Colón Etapa 2,almirante-colon-etapa-2,3,10.388,-75.503,0.45,BUENO,1,2026-03-06 11:15:29
+92,Los Corales Sector A,los-corales-sector-a,3,10.3855,-75.506,0.4,BUENO,1,2026-03-06 11:15:29
+93,Urbanización El Recreo,urbanizacion-el-recreo,3,10.367,-75.464,1.1,BUENO,1,2026-03-06 11:15:29
+94,Tacarigua II,tacarigua-ii,4,10.391,-75.465,0.3,BUENO,1,2026-03-06 11:15:29
+95,Villa Carolina,villa-carolina,3,10.355,-75.448,0.6,BUENO,1,2026-03-06 11:15:29
+96,Portal de los Abetos,portal-de-los-abetos,3,10.358,-75.442,0.2,BUENO,1,2026-03-06 11:15:29
+99,Ceballos Etapa 3,ceballos-etapa-3,2,10.382,-75.525,0.4,REGULAR,0,2026-03-06 11:15:29
+101,Lo Amador,lo-amador,2,10.422,-75.538,0.3,REGULAR,1,2026-03-06 11:15:29
+102,San Pedro Mártir,san-pedro-martir,2,10.365,-75.495,1.1,MALO,0,2026-03-06 11:15:29
+103,Urbanización El Country,urbanizacion-el-country,4,10.398,-75.475,0.5,BUENO,1,2026-03-06 11:15:29
+104,La Troncal,la-troncal,4,10.395,-75.48,0.45,BUENO,1,2026-03-06 11:15:29
+105,Buenos Aires,buenos-aires,3,10.39,-75.475,0.6,BUENO,1,2026-03-06 11:15:29
+106,El Bosque Sector San Isidro,el-bosque-sector-san-isidro,2,10.402,-75.52,0.8,REGULAR,0,2026-03-06 11:15:29
+107,Zaragocilla Sector El Triunfo,zaragocilla-sector-el-triunfo,2,10.4,-75.508,0.4,MALO,0,2026-03-06 11:15:29
+108,La Campiña Etapa 2,la-campina-etapa-2,4,10.393,-75.482,0.35,BUENO,1,2026-03-06 11:15:29
+109,Carthago,carthago,3,10.394,-75.47,0.2,BUENO,1,2026-03-06 11:15:29
+110,Villa Rubia,villa-rubia,2,10.375,-75.508,0.3,REGULAR,0,2026-03-06 11:15:29
+111,Bicentenario Manzana 70,bicentenario-manzana-70,1,10.355,-75.44,0.9,BUENO,1,2026-03-06 11:15:29
+114,Huellas de Alberto Uribe,huellas-de-alberto-uribe,1,10.345,-75.485,0.8,MALO,0,2026-03-06 11:15:29
+115,Urbanización El Gallinero,urbanizacion-el-gallinero,1,10.33,-75.5,0.5,MALO,0,2026-03-06 11:15:29
+116,Polígono Industrial Mamonal,poligono-industrial-mamonal,1,10.305,-75.5,8.5,BUENO,1,2026-03-06 11:15:29
+117,Puerto de Pescadores,puerto-de-pescadores,2,10.478,-75.48,0.4,BUENO,0,2026-03-06 11:15:29
+118,Manzanillo del Mar,manzanillo-del-mar,2,10.495,-75.465,4.8,BUENO,0,2026-03-06 11:15:29
+119,Villa Corelca,villa-corelca,2,10.385,-75.52,0.35,REGULAR,1,2026-03-06 11:15:29
+120,Alto de San Isidro Sector 2,alto-de-san-isidro-sector-2,3,10.407,-75.513,0.2,BUENO,1,2026-03-06 11:15:29
+123,San Pedro Mártir Sector Coquivacoa,san-pedro-martir-sector-coquivacoa,2,10.367,-75.492,0.4,REGULAR,1,2026-03-06 11:15:29
+124,Urbanización El Parque,urbanizacion-el-parque,3,10.395,-75.465,0.3,BUENO,1,2026-03-06 11:15:29
+127,Santa María,santa-maria,3,10.372,-75.468,0.35,BUENO,1,2026-03-06 11:15:29
+128,Urbanización El Porvenir,urbanizacion-el-porvenir,3,10.402,-75.485,0.4,REGULAR,1,2026-03-06 11:15:29
+129,Boston,boston,2,10.425,-75.51,1.2,MALO,0,2026-03-06 11:15:29
+130,La Candelaria,la-candelaria,1,10.41,-75.488,0.9,REGULAR,0,2026-03-06 11:15:29
+131,Tesca Viejo,tesca-viejo,1,10.418,-75.495,0.5,MALO,0,2026-03-06 11:15:29
+132,Lo Amador Sector La Popa,lo-amador-sector-la-popa,2,10.423,-75.535,0.25,REGULAR,1,2026-03-06 11:15:29
+133,San Vicente de Paúl,san-vicente-de-paul,2,10.435,-75.525,0.6,REGULAR,1,2026-03-06 11:15:29
+134,Urbanización El Recreo Etapa 3,urbanizacion-el-recreo-etapa-3,3,10.366,-75.46,0.4,BUENO,1,2026-03-06 11:15:29
+136,Las Palmeras Sector 1,las-palmeras-sector-1,3,10.395,-75.478,0.6,BUENO,1,2026-03-06 11:15:29
+138,Los Calamares Sector 2,los-calamares-sector-2,3,10.394,-75.5,0.4,BUENO,1,2026-03-06 11:15:29
+139,Urbanización Paraíso Real,urbanizacion-paraiso-real,3,10.358,-75.445,0.3,BUENO,1,2026-03-06 11:15:29
+140,Henequén Sector Arroz Barato,henequen-sector-arroz-barato,1,10.328,-75.498,2.1,MALO,0,2026-03-06 11:15:29
+141,Las Palmeras Sector 2,las-palmeras-sector-2,3,10.393,-75.475,0.5,BUENO,1,2026-03-06 11:15:29
+142,San Antonio,san-antonio,2,10.398,-75.482,0.35,REGULAR,1,2026-03-06 11:15:29
+143,Urbanización La Gloria,urbanizacion-la-gloria,3,10.375,-75.46,0.25,BUENO,1,2026-03-06 11:15:29
+144,La Sierrita,la-sierrita,1,10.34,-75.485,0.6,MALO,0,2026-03-06 11:15:29
+145,Urbanización El Gallo,urbanizacion-el-gallo,2,10.392,-75.485,0.4,REGULAR,1,2026-03-06 11:15:29
+146,Villa Grande de Indias,villa-grande-de-indias,3,10.355,-75.435,1.5,BUENO,1,2026-03-06 11:15:29
+147,Huellas de Alberto Uribe Etapa 2,huellas-de-alberto-uribe-etapa-2,1,10.344,-75.483,0.5,MALO,0,2026-03-06 11:15:29
+148,Sector Industrial Mamonal III,sector-industrial-mamonal-iii,1,10.3,-75.515,9.2,BUENO,1,2026-03-06 11:15:29
+149,Urbanización El Horizonte,urbanizacion-el-horizonte,3,10.359,-75.448,0.3,BUENO,1,2026-03-06 11:15:29
+150,Villa de Aranjuez,villa-de-aranjuez,2,10.352,-75.435,0.85,BUENO,1,2026-03-06 11:15:29
+151,San José de los Campanos Sector La Carolina,san-jose-de-los-campanos-sector-la-carolina,2,10.357,-75.451,0.7,BUENO,1,2026-03-06 11:15:29
+152,Urbanización Los Abetos,urbanizacion-los-abetos,3,10.36,-75.442,0.25,BUENO,1,2026-03-06 11:15:29
+153,Henequén Sector Los Girasoles,henequen-sector-los-girasoles,1,10.332,-75.495,0.6,MALO,0,2026-03-06 11:15:29
+154,Urbanización Doña Manuela,urbanizacion-dona-manuela,3,10.354,-75.43,0.45,BUENO,1,2026-03-06 11:15:29
+155,20 de Julio Sector Alto,20-de-julio-sector-alto,1,10.385,-75.505,0.4,MALO,0,2026-03-06 11:15:29
+156,Antonio José de Sucre,antonio-jose-de-sucre,1,10.388,-75.508,0.55,REGULAR,0,2026-03-06 11:15:29
+157,Nueva Granada,nueva-granada,3,10.405,-75.518,0.3,BUENO,1,2026-03-06 11:15:29
+158,San Francisco Sector Los 7 Muertos,san-francisco-sector-los-7-muertos,1,10.445,-75.522,0.4,MALO,0,2026-03-06 11:15:29
+159,La María Sector Sector 3,la-maria-sector-sector-3,1,10.43,-75.512,0.6,MALO,0,2026-03-06 11:15:29
+160,Urbanización El Edén,urbanizacion-el-eden,3,10.365,-75.448,0.2,BUENO,1,2026-03-06 11:15:29
+181,Pie de la Popa,pie-de-la-popa,4,10.418,-75.535,0.8,BUENO,1,2026-03-06 11:15:29
+182,Barrio Chino,barrio-chino,2,10.415,-75.538,0.3,REGULAR,1,2026-03-06 11:15:29
+183,Martínez Martelo,martinez-martelo,3,10.412,-75.535,0.4,BUENO,1,2026-03-06 11:15:29
+184,Prado,prado,3,10.408,-75.525,0.5,BUENO,1,2026-03-06 11:15:29
+185,El Líbano Sector Pantano de Vargas,el-libano-sector-pantano-de-vargas,1,10.405,-75.482,0.4,MALO,0,2026-03-06 11:15:29
+186,Olaya Herrera Sector Central,olaya-herrera-sector-central,1,10.4,-75.495,2.5,REGULAR,0,2026-03-06 11:15:29
+187,Olaya Herrera Sector Estela,olaya-herrera-sector-estela,1,10.402,-75.498,1.1,MALO,0,2026-03-06 11:15:29
+188,Crespo Sector Playa,crespo-sector-playa,5,10.452,-75.518,0.4,BUENO,1,2026-03-06 11:15:29
+189,La Boquilla Sector Marlinda,la-boquilla-sector-marlinda,1,10.485,-75.475,0.6,MALO,0,2026-03-06 11:15:29
+190,Urbanización El Golf,urbanizacion-el-golf,4,10.395,-75.505,0.3,BUENO,1,2026-03-06 11:15:29
+191,Escallón Villa Sector El Estadio,escallon-villa-sector-el-estadio,4,10.392,-75.488,0.4,BUENO,1,2026-03-06 11:15:29
+192,Urbanización Los Laureles,urbanizacion-los-laureles,3,10.362,-75.445,0.25,BUENO,1,2026-03-06 11:15:29
+193,San Fernando Sector El Parque,san-fernando-sector-el-parque,3,10.382,-75.485,0.4,BUENO,1,2026-03-06 11:15:29
+196,Policarpa Sector Bajo,policarpa-sector-bajo,1,10.338,-75.505,1.4,REGULAR,0,2026-03-06 11:15:29
+197,Albornoz,albornoz,1,10.372,-75.525,1.8,REGULAR,0,2026-03-06 11:15:29
+198,Urbanización El Recreo Etapa 4,urbanizacion-el-recreo-etapa-4,3,10.371,-75.458,0.3,BUENO,1,2026-03-06 11:15:29
+199,Santa Lucía Sector El Canal,santa-lucia-sector-el-canal,3,10.382,-75.48,0.35,BUENO,1,2026-03-06 11:15:29
+200,Villa de la Candelaria,villa-de-la-candelaria,2,10.35,-75.442,0.6,BUENO,1,2026-03-06 11:15:29
+201,Olaya Herrera,olaya-herrera,1,10.401,-75.48,3.5,REGULAR,0,2026-04-16 17:25:40
+202,Nelson Mandela,nelson-mandela,1,10.355,-75.485,2.8,MALO,0,2026-04-16 17:25:40
+203,San Francisco,san-francisco,2,10.441,-75.518,1.2,MALO,0,2026-04-16 17:25:40
+204,Santa Mónica,santa-monica,3,10.392,-75.488,0.6,BUENO,1,2026-04-16 17:25:40
+205,Provincia,provincia,3,10.381,-75.465,0.4,BUENO,1,2026-04-16 17:25:40
+206,Santa Ana,santa-ana,2,10.315,-75.51,1.8,REGULAR,0,2026-04-16 17:25:40
+207,Puerta de Hierro,puerta-de-hierro,2,10.365,-75.452,0.7,REGULAR,0,2026-04-16 17:25:40
+208,San José de los Campanos Sector C,san-jose-de-los-campanos-sector-c,2,10.36,-75.456,1.4,BUENO,1,2026-04-16 17:25:40
+209,El Educador,el-educador,1,10.358,-75.492,0.9,MALO,0,2026-04-16 17:25:40
+210,Santa Clara,santa-clara,2,10.385,-75.512,0.75,REGULAR,0,2026-04-16 17:25:40
+211,El Reposo,el-reposo,1,10.352,-75.485,0.8,MALO,0,2026-04-16 17:25:40
+212,Nuevo Horizonte,nuevo-horizonte,1,10.398,-75.455,0.65,MALO,0,2026-04-16 17:25:40
+213,Colombiatón,colombiaton,1,10.358,-75.438,1.2,REGULAR,1,2026-04-16 17:25:40
+214,El Nazareno,el-nazareno,1,10.35,-75.488,1.4,MALO,0,2026-04-16 17:25:40
+215,San José de los Campanos Sector Revivir,san-jose-de-los-campanos-sector-revivir,2,10.363,-75.454,0.5,REGULAR,1,2026-04-16 17:25:40
+216,Villa Hermosa,villa-hermosa,1,10.342,-75.49,0.8,MALO,0,2026-04-16 17:25:40
+217,La Providencia,la-providencia,3,10.38,-75.463,0.45,BUENO,1,2026-04-16 17:25:40
+218,Barcelona,barcelona,4,10.3915,-75.472,0.25,BUENO,1,2026-04-16 17:25:40
+219,Quindío,quindio,1,10.355,-75.48,0.7,MALO,0,2026-04-16 17:25:40
+220,Urbanización Castillete,urbanizacion-castillete,4,10.39,-75.47,0.2,BUENO,1,2026-04-16 17:25:40
+223,Urbanización El Rodeo,urbanizacion-el-rodeo,2,10.355,-75.455,1.2,BUENO,1,2026-04-16 17:25:40
+224,Henequén Sector Libertador,henequen-sector-libertador,1,10.335,-75.498,0.7,MALO,0,2026-04-16 17:25:40
