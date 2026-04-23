@@ -218,6 +218,11 @@ Los datos recopilados abren la puerta a múltiples análisis de inteligencia de 
 - **Densidad de oferta por barrio** — ¿Qué barrios tienen más propiedades disponibles? ¿Hay sobreoferta o escasez en ciertas zonas?
 - **Precio por metro cuadrado** — Comparativa de valor por m² entre barrios para detectar zonas subvaloradas.
 - **Tipología de inmuebles por zona** — ¿Qué tipo de propiedad predomina en cada barrio? (apartamentos, casas, locales, etc.)
+
+## 📈 Power BI (entrega para clase)
+
+- Guía paso a paso (modelo + Power Query + DAX + dashboard): ver [docs/POWERBI.md](docs/POWERBI.md)
+- Exportación rápida a CSV para Power BI: `npm run export:powerbi` (genera archivos en `data/powerbi/`)
 - **Evolución temporal** — Con scraping periódico, analizar tendencias de precios y disponibilidad a lo largo del tiempo.
 - **Correlación infraestructura ↔ precio** — ¿Los barrios con mejor pavimento e iluminación LED tienen arriendos más altos?
 - **Oportunidad comercial** — Cruzar precio, tipo de inmueble y ubicación para identificar zonas ideales para abrir negocios.
