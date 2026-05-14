@@ -13,13 +13,22 @@ La idea es presentar esto como un **sistema híbrido**: Scraping → ETL → BD 
 
 ## 1) Responsable de Integración y Modelado (Data Architect)
 
-### 1.1 Carga de datos (equivalente a “importar g_inventario.sql”)
+Esta parte es el **Paso 1 completo** (tipo “hunde aquí, presiona allá”). La meta es:
 
-En nuestro caso no hay `g_inventario.sql`: el dataset vive en SQLite.
+1) Cargar datos sin errores
+2) Dejar tipos correctos (Power Query)
+3) Construir el modelo relacional (1 a muchos)
+4) Validar que filtros funcionen
 
-**Opción A (recomendada): exportar a CSV y cargar a Power BI**
+> Recomendación para la exposición: usa el modelo relacional con `dim_barrios` + `fact_propiedades` (+ fechas). Deja `fact_propiedades_enriquecida` como “tabla plana de apoyo” (no como base del modelo).
 
-1) Genera/actualiza la BD (si aún no existe):
+---
+
+### 1.0 Requisitos previos (antes de Power BI)
+
+Si ya cargaste los CSV, puedes saltarte esto. Si no:
+
+1) En la carpeta del proyecto, genera/actualiza la BD (si aplica):
 - `npm install`
 - `npm start`
 - `npm run sync`
@@ -28,65 +37,129 @@ En nuestro caso no hay `g_inventario.sql`: el dataset vive en SQLite.
 2) Exporta a CSV para Power BI:
 - `npm run export:powerbi`
 
-Se crean estos archivos en `data/powerbi/`:
-- `dim_barrios.csv`
-- `fact_propiedades.csv`
-- `fact_propiedades_enriquecida.csv` (por si quieren un modelo “flat” para prototipar)
-- `dim_fecha_scraping.csv`
-
-3) En Power BI Desktop:
-- **Obtener datos → Texto/CSV** → importa `dim_barrios.csv`
-- **Obtener datos → Texto/CSV** → importa `fact_propiedades.csv`
-
-**Opción B: conectar Power BI directo a SQLite**
-
-Si tu Power BI tiene conector SQLite (o usas ODBC), puedes conectar directo a `data/barrios.db` e importar `barrios` y `propiedades`.
-
-### 1.2 Modelo relacional (equivalente a “replicar modelo del PPT”)
-
-Como nuestro dominio no es inventario sino **mercado de arriendo**, el “modelo equivalente” (limpio y defendible en clase) es una **estrella**:
-
-- **DimBarrio** = `dim_barrios`
-- **FactPropiedad** = `fact_propiedades`
-- **DimFecha** = tabla calendario (recomendada) a partir de `fecha_scraping`
-- (Opcional) **DimTipoInmueble** desde `tipo_inmueble` (si el profe exige más dimensiones)
-
-**Relación obligatoria** (en la vista Modelo de Power BI):
-- `FactPropiedad[barrio_id]` (muchos) → `DimBarrio[id]` (uno)
-
-**Relación recomendada para tiempo**:
-- `FactPropiedad[fecha_scraping]` (muchos) → `DimFecha[Date]` (uno)
-
-**Cardinalidades**:
-- `DimBarrio (1) ──── (N) FactPropiedad`
-- `DimFecha (1) ──── (N) FactPropiedad`
-
-### 1.3 Continuidad del proyecto (integrar scraping + ETL)
-
-Lo que debes “defender” en la exposición:
-
-- El scraping llena `propiedades` y referencia `barrios` por `barrio_id`.
-- El ETL ya normaliza campos clave (precio, área, habitaciones, etc.).
-- En Power Query se hacen ajustes “BI friendly” (tipos, fechas, columnas derivadas) sin romper la estructura.
-
-**Power Query (mínimos recomendados)**
-
-En `fact_propiedades`:
-- Tipos:
-  - `precio_arriendo_cop`, `admin_cop`, `costo_total_cop` → Número entero
-  - `area_m2` → Número decimal
-  - `fecha_scraping` → Fecha
-- Columna derivada:
-  - `Precio_m2` = `precio_arriendo_cop / area_m2` (manejar nulos o área 0)
-- Limpieza:
-  - `tipo_inmueble`: normalizar valores (ej. minúsculas, agrupar “apto/apartamento”)
-  - `link`: deduplicación si hay listados repetidos
-
-En `dim_barrios`:
-- `iluminacion_led`: convertir a Sí/No (boolean)
-- `estado_pavimento`: estandarizar (BUENO/REGULAR/MALO/DESCONOCIDO)
+Se crean los archivos en `data/powerbi/`.
 
 ---
+
+### 1.1 Cargar datos a Power BI (desde CSV) — clic por clic
+
+1) Abre **Power BI Desktop**
+2) En la barra superior: **Inicio → Obtener datos → Texto/CSV**
+3) Selecciona `dim_barrios.csv` → **Abrir**
+4) En la ventana de previsualización:
+  - Verifica que se vean los acentos (Cartagena, Pozón, etc.)
+  - Pulsa **Transformar datos** (recomendado) o **Cargar** (si vas rápido)
+5) Repite lo mismo para `fact_propiedades.csv`
+6) (Opcional) Repite para `dim_fecha_scraping.csv`
+7) (Opcional) Importa `fact_propiedades_enriquecida.csv` **solo si** quieres una tabla “flat” para comparar, pero **no** la uses para relaciones.
+
+Si ya cargaste y ves las tablas en el panel de la derecha, vas bien.
+
+---
+
+### 1.2 Power Query (Transformar datos) — dejar tipos y limpieza mínima
+
+1) Ve a: **Inicio → Transformar datos**
+2) En el panel izquierdo, haz clic en `dim_barrios`
+3) Revisa/ajusta tipos de columnas (en el encabezado de cada columna):
+  - `id` → **Número entero**
+  - `estrato` → **Número entero**
+  - `latitud` y `longitud` → **Número decimal**
+  - `area_km2` → **Número decimal**
+  - `iluminacion_led` → **Número entero** (0/1) o **Verdadero/Falso** (si quieres)
+  - `fecha_insercion` → **Fecha/Hora** (opcional; no es crítico para el modelo)
+
+4) Ahora haz clic en `fact_propiedades`
+5) Tipos recomendados:
+  - `id` → **Número entero**
+  - `barrio_id` → **Número entero** (IMPORTANTE: para que la relación funcione)
+  - `precio_arriendo_cop`, `admin_cop`, `costo_total_cop` → **Número entero**
+  - `area_m2` → **Número decimal**
+  - `habitaciones`, `banos`, `parqueaderos` → **Número entero**
+  - `pagina_scraping` → **Número entero**
+  - `fecha_scraping` → **Fecha** (IMPORTANTE: para relación con fecha)
+  - `hora_scraping` → Texto (está bien)
+
+6) (Opcional recomendado) En `fact_propiedades`, crea una columna para precio/m² en Power Query:
+  - **Agregar columna → Columna personalizada**
+  - Nombre: `precio_m2`
+  - Fórmula:
+    - `if [area_m2] = null or [area_m2] = 0 or [precio_arriendo_cop] = null then null else [precio_arriendo_cop] / [area_m2]`
+  - Tipo: **Número decimal**
+
+7) En `dim_fecha_scraping`:
+  - Asegura que `fecha_scraping` sea tipo **Fecha**
+
+8) Cuando termines: **Inicio → Cerrar y aplicar**
+
+---
+
+### 1.3 Modelo relacional (relaciones) — clic por clic
+
+Ahora vas a la vista de modelo (icono de diagrama a la izquierda).
+
+#### Relación 1 (obligatoria): Barrios → Propiedades
+
+1) **Modelo → Administrar relaciones → Nuevo**
+2) Configura:
+  - Tabla 1: `dim_barrios` columna `id`
+  - Tabla 2: `fact_propiedades` columna `barrio_id`
+  - Cardinalidad: **Uno a varios (1:*)**
+  - Dirección de filtro cruzado: **Única** (desde `dim_barrios` hacia `fact_propiedades`)
+  - Relación: **Activa**
+3) **Aceptar**
+
+✅ Verificación visual: debe verse un “1” del lado de `dim_barrios` y un “*” del lado de `fact_propiedades`.
+
+#### Relación 2 (recomendada): Fecha → Propiedades
+
+Si ya cargaste `dim_fecha_scraping`:
+
+1) **Modelo → Administrar relaciones → Nuevo**
+2) Configura:
+  - `dim_fecha_scraping[fecha_scraping]` (1)
+  - `fact_propiedades[fecha_scraping]` (*)
+  - Cardinalidad: **Uno a varios (1:*)**
+  - Dirección de filtro cruzado: **Única** (desde `dim_fecha_scraping` hacia `fact_propiedades`)
+  - Activa
+3) **Aceptar**
+
+> Nota: una tabla calendario DAX completa es “más pro” (año/mes/semana), pero para la entrega básica `dim_fecha_scraping` funciona.
+
+#### Importante: `fact_propiedades_enriquecida`
+
+- Déjala **sin relaciones**.
+- No la conectes a `dim_barrios`, porque ya trae `barrio_nombre`, `barrio_estrato`, lat/long y eso puede confundirte y generar conteos duplicados si la usas junto a `fact_propiedades`.
+
+---
+
+### 1.4 Validación (checklist de “si filtra bien, está bien”) — 3 minutos
+
+1) Ve a la vista **Informe**
+2) Crea una tabla simple con:
+  - `dim_barrios[nombre]`
+  - Un conteo: arrastra `fact_propiedades[id]` y cámbialo a **Recuento**
+3) Agrega un segmentador (slicer) de `dim_barrios[estrato]`:
+  - Al cambiar estrato, el conteo debe cambiar.
+4) Agrega un segmentador de `dim_fecha_scraping[fecha_scraping]`:
+  - Al cambiar fecha, el conteo debe cambiar.
+
+Si ambos filtros afectan a `fact_propiedades`, el modelo está correcto.
+
+---
+
+### 1.5 Errores comunes (y cómo se arreglan)
+
+- **No me deja crear la relación**
+  - Causa #1: tipos distintos. Solución: en Power Query, fuerza `dim_barrios[id]` y `fact_propiedades[barrio_id]` a **Número entero**.
+  - Causa #2: `dim_barrios[id]` con duplicados. Solución: revisar duplicados en Power Query y corregir fuente.
+
+- **La relación se crea pero no filtra**
+  - Revisa que la relación esté **Activa**.
+  - Revisa que la dirección de filtro esté en **Única** desde la dimensión a la tabla de hechos.
+
+- **Fecha no se puede convertir**
+  - Solución: en Power Query revisa el formato real y usa “Cambiar tipo → Usar configuración regional…” y elige Español (Colombia) si está en formato dd/mm.
 
 ## 2) Responsable de Lógica y Análisis (DAX Specialist)
 

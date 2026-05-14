@@ -7,6 +7,7 @@
     "sync": "node scripts/sincronizar.js",
     "scraping": "node scripts/pipeline.js",
     "export:powerbi": "node scripts/export_powerbi.js",
+    "export:weka": "node scripts/export_weka.js",
     "etl:mongo": "node scripts/etl_mongo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
